@@ -33,4 +33,45 @@ This CRUD application is designed to demonstrate the capabilities of creating an
 - Demonstrate the use of ASP.NET Core 8.0 for creating a full-featured web application with CRUD functionality and authentication.
 - Showcase integration with PostgreSQL and effective use of Docker for containerizing applications.
 
+**Deployment Instructions:**
+
+1. **Install Docker:**
+   - **Windows:** Download and install Docker Desktop from [Docker's official website](https://www.docker.com/products/docker-desktop) and follow the installation instructions.
+   - **Linux:** Install Docker by following the instructions for your distribution from the [Docker documentation](https://docs.docker.com/engine/install/).
+
+2. **Clone the Repository:**
+   Open a terminal or command prompt and clone the project repository using Git:
+
+   ```bash
+   git clone <repository_url>
+   ```
+
+   Navigate to the project directory:
+
+   ```bash
+   cd <project_directory>
+   ```
+
+3. **Build and Run with Docker Compose:**
+   - **Windows:**
+     Run the following command to build and start the containers:
+
+     ```bash
+     docker compose up --build -d
+     ```
+
+   - **Linux:**
+     Use `sudo` if necessary to run Docker commands:
+
+     ```bash
+     sudo docker compose up --build -d
+     ```
+
+   This command will build the Docker images and start the containers for your ASP.NET Core application and PostgreSQL database in detached mode.
+
+**Useful Links:**
+- [ASP.NET Core 8.0 Documentation](https://docs.microsoft.com/en-us/aspnet/core/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Docker Documentation](https://docs.docker.com/)
+
 This project serves as an excellent starting point for exploring modern approaches to web application development and data management.
