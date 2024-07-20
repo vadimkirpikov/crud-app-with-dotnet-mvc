@@ -19,6 +19,7 @@ services:
      restart: always
      volumes:
        - ./pgsql/data:/var/lib/postgresql/data
+       - ./init:/docker-entrypoint-initdb.d
      environment:
        - POSTGRES_USER=vadimkirpikov
        - POSTGRES_DB=crud-app-db
