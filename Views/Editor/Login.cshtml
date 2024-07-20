@@ -1,0 +1,25 @@
+﻿@model Editor;
+
+<h4>Login</h4>
+@{
+    if (ViewBag.ErrorMessage is not null)
+    {
+        <p>@ViewBag.ErrorMessage</p>
+    }
+}
+<div style="text-align: center">
+    <form asp-action="Login" method="post">
+        <div class="card-group">
+            <label asp-for="Login" class="form-label"></label>
+            <input asp-for="Login" class="form-control"/>
+        </div>
+        <div class="card-group">
+            <label asp-for="Password" class="form-label"></label>
+            <input asp-for="Password" type="password" class="form-control"/>
+        </div>
+        <div class="flex-row">
+            <input type="submit" value="Login" class="btn btn-primary"/>
+            <a asp-action="Register" class="btn btn-success">Register</a>
+        </div>
+    </form>
+</div>

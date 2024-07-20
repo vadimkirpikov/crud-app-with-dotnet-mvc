@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crud-app", "crud-app.csproj", "{288FEF55-A9FA-4D23-B0AB-604BA27C661D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{288FEF55-A9FA-4D23-B0AB-604BA27C661D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288FEF55-A9FA-4D23-B0AB-604BA27C661D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288FEF55-A9FA-4D23-B0AB-604BA27C661D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288FEF55-A9FA-4D23-B0AB-604BA27C661D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
