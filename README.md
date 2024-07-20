@@ -43,13 +43,13 @@ This CRUD application is designed to demonstrate the capabilities of creating an
    Open a terminal or command prompt and clone the project repository using Git:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/vadimkirpikov/crud-app-with-dotnet-mvc
    ```
 
    Navigate to the project directory:
 
    ```bash
-   cd <project_directory>
+   cd crud-app-with-dotnet-mvc
    ```
 
 3. **Build and Run with Docker Compose:**
